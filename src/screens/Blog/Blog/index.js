@@ -36,7 +36,7 @@ export default function BlogBlog({navigation}) {
                     .then((res) => {
                         console.log('carregou');
                         console.log(res);
-                        // setPost(res);
+                        setPost(res);
                         return res;
                     })                    
                     ;
@@ -44,8 +44,8 @@ export default function BlogBlog({navigation}) {
     
         let teste = get();
 
-        console.log(teste)
-        setPost(teste);
+        // console.log(teste)
+        // setPost(teste);
     }, []);
 
 
