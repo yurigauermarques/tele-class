@@ -4,7 +4,6 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import StackHome from './StackHome';
 import StackBlog from './StackBlog';
-import TabStackBlog from './TabStackBlog';
 
 const Drawer = createDrawerNavigator();
 

@@ -20,7 +20,7 @@ const theme = {
 };
 
 export default function App() {
-  return (    
+  return (
       <PaperProvider theme={theme}>
           <Navigator>
             <StatusBar style="auto" />
